@@ -4,7 +4,7 @@
 В папке ```src``` содержатся отчёты о проделанной работе, а также написанные в ходе выполнения проекта скрипты и конфиги.
 
 ## Part 1. Генератор файлов
-https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/01<br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/01" target="_blank">Решение</a><br>
 Написан bash-скрипт. Скрипт запускается с 6 параметрами. Пример запуска скрипта: \
 `main.sh /opt/test 4 az 5 az.az 3kb` 
 
