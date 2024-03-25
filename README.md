@@ -4,7 +4,7 @@
 В папке ```src``` содержатся отчёты о проделанной работе, а также написанные в ходе выполнения проекта скрипты и конфиги.
 
 ## Part 1. Генератор файлов
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/01" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/01" target="_blank">Ссылка на решение</a><br>
 Написан bash-скрипт. Скрипт запускается с 6 параметрами. Пример запуска скрипта: \
 `main.sh /opt/test 4 az 5 az.az 3kb` 
 
@@ -21,7 +21,7 @@
 
 
 ## Part 2. Засорение файловой системы
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/02" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/02" target="_blank">Ссылка на решение</a><br>
 bash-скрипт. Скрипт запускается с 3 параметрами. Пример запуска скрипта: \
 `main.sh az az.az 3Mb`
 
@@ -38,7 +38,7 @@ bash-скрипт. Скрипт запускается с 3 параметрам
 В конце работы скрипта, на экран выводится время начало работы скрипта, время окончания и общее время его работы.
 
 ## Part 3. Очистка файловой системы
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/03" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/03" target="_blank">Ссылка на решение</a><br>
 Написан bash-скрипт. Скрипт запускается с 1 параметром.
 Скрипт умеет очищать систему от созданных в Part 2 папок и файлов 3 способами:
 
@@ -49,7 +49,7 @@ bash-скрипт. Скрипт запускается с 3 параметрам
 Способ очистки задается при запуске скрипта, как параметр со значением 1, 2 или 3.
 
 ## Part 4. Генератор логов
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/04" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/04" target="_blank">Ссылка на решение</a><br>
 Написан bash-скрипт, генерирующий 5 файлов логов **nginx** в *combined* формате.
 Каждый лог должен содержать информацию за 1 день.
 
@@ -64,7 +64,7 @@ bash-скрипт. Скрипт запускается с 3 параметрам
 6. Агенты (Mozilla, Google Chrome, Opera, Safari, Internet Explorer, Microsoft Edge, Crawler and bot, Library and net tool)
 
 ## Part 5. Мониторинг
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/05" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/05" target="_blank">Ссылка на решение</a><br>
 Написан bash-скрипт для разбора логов **nginx** из Части 4 через **awk**.
 
 Скрипт запускается с 1 параметром, который принимает значение 1, 2, 3 или 4.
@@ -76,12 +76,11 @@ bash-скрипт. Скрипт запускается с 3 параметрам
 4. Все уникальные IP, которые встречаются среди ошибочных запросов
 
 ## Part 6. **GoAccess**
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/06" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/06" target="_blank">Ссылка на решение</a><br>
 С помощью утилиты GoAccess получили ту же информацию, что и в Части 5.
 
-
 ## Part 7. **Prometheus** и **Grafana**
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/07" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/07" target="_blank">Ссылка на отчет</a><br>
 ##### Установлены и настроены **Prometheus** и **Grafana** на виртуальной машине
 ##### Настроен доступ к веб интерфейсам **Prometheus** и **Grafana** с локальной машины
 
@@ -95,7 +94,7 @@ bash-скрипт. Скрипт запускается с 3 параметрам
 
 
 ## Part 8. Готовый дашборд
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/08" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/08" target="_blank">Ссылка на отчет</a><br>
 ##### Установлен готовый дашборд *Node Exporter Quickstart and Dashboard* с официального сайта **Grafana Labs**
 
 ##### Проведены те же тесты, что и в Части 7.
@@ -106,7 +105,7 @@ bash-скрипт. Скрипт запускается с 3 параметрам
 ##### Посмотреть на нагрузку сетевого интерфейса
 
 ## Part 9. Дополнительно. Свой *node_exporter*
-<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/09" target="_blank">Решение</a><br>
+<a href="https://github.com/nekitze/LinuxMonitoring-v2.0/tree/main/src/09" target="_blank">Ссылка на решение и отчет</a><br>
 Написан bash-скрипт который собирает информацию по базовым метрикам системы (ЦПУ, оперативная память, жесткий диск (объем)).<br>
 Скрипт формирует html страничку по формату **Prometheus**, которую будет отдавать **nginx**. \
 Сама страничка обновляется внутри bash-скрипта каждые 5 секунд.
